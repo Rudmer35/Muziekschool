@@ -1,0 +1,144 @@
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+   
+    padding: 5px;
+    }
+
+.col-button{width:4.16%; min-width: 50px;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+
+header{
+    background-color: rgb(245, 114, 12);
+    color: white;
+    margin: 0px;
+    align-content: center;
+    text-align: center;
+    min-height: 200px;
+    
+}
+
+body, h1, p, div{
+    margin: 0px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: rgb(189, 86, 13);
+    min-height: 75px;
+    align-content: center;
+    text-align: center;
+    color: black;
+}
+
+.border {
+    background-color: rgb(255, 184, 134);
+    margin: 0px;
+    padding: 20px;
+}
+
+.main{
+    margin: 0px;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(189, 86, 13);
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    border-bottom: 5px solid yellow;
+}
+
+.headingmain{
+    color: rgb(189, 86, 13);
+}
+
+.img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.imgmain{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left:30px;
+    display:block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+#imghannah{
+    float:right;
+    max-width: 300px;
+    width: 100%;
+    height:auto;
+}
+#imgjesse{
+    float:left;
+    max-width: 300px;
+    width: 100%;
+    height:auto;
+}
+
+#map{
+    padding: 10px;
+    width: 90%;
+    height: 400px;
+}
+
+.form-field{
+    display:block;
+    height: 35px;
+    width: 100%;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+#text{
+    height: 250px;
+}
+
+.triple{
+    line-height: 3;
+}
